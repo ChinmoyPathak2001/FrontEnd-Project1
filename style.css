@@ -13,11 +13,16 @@
 
  }
 
+ #home{
+      
+ }
+
  #nav{
-    padding: 2vw 10vw; 
+    padding: 3vw 10vw; 
     background-color: red;
     display: flex;
     justify-content: space-between ;
+    position: relative;
  }
  
  #nleft{ 
