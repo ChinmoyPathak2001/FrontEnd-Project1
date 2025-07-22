@@ -14,12 +14,12 @@
  }
 
  #home{
-      
+
  }
 
  #nav{
     padding: 3vw 10vw; 
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     justify-content: space-between ;
     position: relative;
@@ -31,7 +31,7 @@
  }
  
  #nav a{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 800;
     text-decoration: none;
     color: black;  
@@ -43,4 +43,45 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+ }
+
+ #hero{
+   width: 100%;
+   height: 100px;
+   margin-top: 15vw;
+   padding: 3vw 10vw; 
+   /* background-color: blue; */
+
+ }
+
+ #sustain{
+   width: 10vw;
+ }
+
+ #sustain p{
+   font-weight: 800;
+   font-size: 12px;
+   margin: 10px 0;
+   opacity: 0.5;
+   line-height: 1;
+   text-transform: capitalize;
+ }
+
+ #sustain #susimagewrapper{
+   width: 100%;
+   height: 15vw;
+   position: relative;
+   overflow: hidden;
+   /* background-color: red; */
+
+ }
+
+ #susimagewrapper img{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 120%;
+   height: 120%;
+   transform: translate(-50%, -50%);
+   object-fit: cover;
  }
