@@ -3,7 +3,7 @@ const scroll = new LocomotiveScroll({
   el: document.querySelector('#main'),  // Make sure #main has overflow: hidden
   smooth: true,
   multiplier: 0.5,              // Adjust scroll speed (0.5–1 for natural feel)
-  lerp: 0.031,                  // Controls scroll inertia (lower = smoother)
+  lerp: 0.091,                  // Controls scroll inertia (lower = smoother)
   class: 'is-reveal',          // Class applied to revealed elements
   smartphone: {
     smooth: true,
