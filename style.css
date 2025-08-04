@@ -1,3 +1,18 @@
+@font-face {
+   font-family: clash;
+   src: url(./fonts/ClashDisplay-Variable.ttf);
+}
+
+@font-face {
+   font-family: satoshi;
+   src: url(./fonts/Satoshi-Variable.ttf);
+}
+
+@font-face {
+   font-family: switzer;
+   src: url(./fonts/Switzer-Variable.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -26,6 +41,9 @@
  #main{
     width: 100%;
     overflow: hidden;
+    /* font-family: clash; */
+    font-family: satoshi;
+    font-weight: 500;
  }
 
  #nav{
@@ -71,6 +89,7 @@
 
  #sustain{
    width: 10vw;
+   font-family: switzer;
  }
 
 /* #susta{
@@ -78,7 +97,7 @@
 } */
 
  #sustain p{
-   font-weight: 800;
+   font-weight: 700;
    font-size: 12px;
    margin: 10px 0;
    opacity: 0.5;
@@ -143,7 +162,8 @@
    position: absolute;
    top: 4.9%;
    left: 27%;
-
+   font-family: switzer;
+   font-weight: 500;
  }
 
 #ephemeral h1{
@@ -188,6 +208,8 @@
    justify-content: space-between;
    padding: 3vw 10vw;
    margin-top: 7vw;
+   font-family: switzer;
+   font-weight: 500;
 }
 
 #motive p{
@@ -199,6 +221,7 @@
    line-height: 1.6;
    letter-spacing: -.1vw;
    right: 0;
+   font-weight: 400;
    /* text-wrap: wrap; */
    /* display: flex; */
    /* align-items: center; */
@@ -280,6 +303,8 @@
    letter-spacing: -.1vw;
    font-weight: 100;
    font-size: 2vw;
+   font-family: switzer;
+   font-weight: 500;
 }
 
 #firstpic p #secpic p{
@@ -338,6 +363,7 @@
 #btext{
    width: 35%;
    padding: 0 3vw;
+   
 }
 
 #btext h1{
@@ -345,12 +371,16 @@
    font-weight: 400;
    letter-spacing: -.1vw;
    line-height: 1;
+   font-family: satoshi;
+   font-weight: 500;
 }
 
 #btext p{
    margin-top: 20px;
    width: 60%;
    font-size: 1.2vw;
+   font-family: satoshi;
+   font-weight: 500;
 }
 
 #future{
@@ -376,6 +406,8 @@
    transform: translate(-50%, -50%);
    height: 100%;
    object-fit: cover;
+   font-family: satoshi;
+   font-weight: 500;
 }
 
 #ftext {
@@ -388,6 +420,8 @@
    margin-top: 19vw;
    border-radius: 10px;
    user-select: none;
+   font-family: satoshi;
+   font-weight: 500;
 }
 #ftext button{
    padding: .8vw 1.7vw;
